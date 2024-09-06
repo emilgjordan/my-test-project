@@ -12,5 +12,6 @@ jobs:
   main:
     runs-on: self-hosted
     steps:
+      - uses: actions/checkout@v4.1.7
       - uses: actions/setup-node@v4.0.3
       - run: node main.js
