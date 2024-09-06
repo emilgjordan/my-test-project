@@ -1,4 +1,4 @@
-name: Lint Python Code
+name: Run Node
 
 on:
   push:
