@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  lint:
+  main:
     runs-on: self-hosted
     steps:
       - uses: actions/setup-node@v4.0.3
